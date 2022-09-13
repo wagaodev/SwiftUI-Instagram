@@ -13,6 +13,7 @@ struct FeedCell: View {
 	let feedImage: String = "wagner2"
 	let profileName: String = "Wagão"
 	let profileFriend: String = "neymarjr"
+	let profileAnita: String = "anitta"
 	
 	
 	var body: some View {
@@ -63,7 +64,22 @@ struct FeedCell: View {
 				})
 			}
 			.padding([.horizontal, .vertical], 8)
-			
+			HStack {
+				Image(profileAnita)
+					.resizable()
+					.scaledToFill()
+					.frame(width: 26, height: 26)
+					.clipped()
+					.cornerRadius(13)
+					.padding(.leading, 8)
+				
+				Text("Curtido por").font(.system(size: 13, weight: .light)) +
+				Text(" anitta ").font(.system(size: 13, weight: .semibold)) +
+				Text("e").font(.system(size: 13, weight: .light)) +
+				Text(" outras pessoas").font(.system(size: 13, weight: .semibold))
+					.font(.system(size: 13, weight: .regular))
+					.foregroundColor(.primary)
+			}
 			// caption
 			
 			HStack {
@@ -104,8 +120,7 @@ struct FeedCell: View {
 					.foregroundColor(.primary)
 			}.padding(.horizontal, 6)
 		}
-	
-		
+		.padding(.top, 22)
 	}
 }
 
