@@ -1,15 +1,15 @@
+////
+////  Constants.swift
+////  InstagramSwiftUITutorial
+////
+////  Created by Stephen Dowless on 12/29/20.
+////
 //
-//  Constants.swift
-//  InstagramSwiftUITutorial
+//import Firebase
 //
-//  Created by Stephen Dowless on 12/29/20.
+//let COLLECTION_USERS = Firestore.firestore().collection("users")
+//let COLLECTION_FOLLOWERS = Firestore.firestore().collection("followers")
+//let COLLECTION_FOLLOWING = Firestore.firestore().collection("following")
+//let COLLECTION_POSTS = Firestore.firestore().collection("posts")
+//let COLLECTION_NOTIFICATIONS = Firestore.firestore().collection("notifications")
 //
-
-import Firebase
-
-let COLLECTION_USERS = Firestore.firestore().collection("users")
-let COLLECTION_FOLLOWERS = Firestore.firestore().collection("followers")
-let COLLECTION_FOLLOWING = Firestore.firestore().collection("following")
-let COLLECTION_POSTS = Firestore.firestore().collection("posts")
-let COLLECTION_NOTIFICATIONS = Firestore.firestore().collection("notifications")
-
