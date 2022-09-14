@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct SearchView: View {
-    var body: some View {
-        Text("Search")
-    }
+	
+	@State var searchText = ""
+	
+	var body: some View {
+		ScrollView {
+			SearchBar(text: $searchText)
+				.padding()
+			
+			
+			PostGridView()
+		}
+	}
 }
 
 struct SearchView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchView()
-    }
+	static var previews: some View {
+		SearchView()
+	}
 }

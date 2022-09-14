@@ -120,7 +120,6 @@ struct FeedCell: View {
 					.foregroundColor(.primary)
 			}.padding(.horizontal, 6)
 		}
-		.padding(.top, 22)
 	}
 }
 
