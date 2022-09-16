@@ -33,18 +33,17 @@ struct SearchBar: View {
 				}
 			if isEditing {
 				Button(action: {
-				withAnimation {
+					withAnimation {
 						isEditing = false
 						text = ""
-//					UIApplication.shared.endEditing()
+						UIApplication.shared.endEditing()
 					}
 				}, label: {
 					Text("Cancel")
+						.foregroundColor(.black)
 				})
 				.padding(.trailing, 8)
 				.transition(.move(edge: .trailing))
-//								.animation(.default)
-				
 			}
 		}
 	}
