@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct ProfileView: View {
-    var body: some View {
-        Text("Profile")
-    }
+	
+	var body: some View {
+		ScrollView {
+			ProfileHeader()
+			LazyVStack {
+				PostGridView()
+			}
+		}
+		
+	}
 }
 
 struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
-    }
+	static var previews: some View {
+		ProfileView()
+	}
 }
