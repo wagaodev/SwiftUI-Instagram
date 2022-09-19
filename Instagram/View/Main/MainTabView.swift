@@ -11,7 +11,6 @@ struct MainTabView: View {
 	var body: some View {
 		NavigationView {
 			TabView {
-				
 				FeedView()
 					.tabItem {
 						Image(systemName: "house")
@@ -39,9 +38,8 @@ struct MainTabView: View {
 						Image(systemName: "person.crop.circle")
 					}
 			}
-			.navigationTitle("Home")
 			.navigationBarTitleDisplayMode(.inline)
-			.accentColor(.black)
+			// HeaderFeed
 		}
 	}
 }
