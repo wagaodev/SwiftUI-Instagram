@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "52_1786_JETTA_22_GLI_PAINEL-TRANSVERSAL__AMB_VERMELHO_KINGS_16_9_1920x1080px.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
