@@ -35,23 +35,13 @@ struct ProfileHeader: View {
 				.font(.system(size: 14))
 				.padding(.leading)
 			
-			HStack(alignment: .center) {
+			HStack {
 				Spacer()
-				Button(
-					action: { print("Click...")},
-					label: {
-						Text("Edit Profile")
-							.font(.system(size: 14, weight: .semibold))
-							.frame(width: 360, height: 32)
-							.foregroundColor(.black)
-							.overlay(
-								RoundedRectangle(cornerRadius: 3)
-									.stroke(Color.gray, lineWidth: 1)
-							)
-					}
-				)
+				ProfileActionButtonView()
 				Spacer()
-			}.padding(.top)
+			}
+			
+			.padding(.top)
 		}
 	}
 }

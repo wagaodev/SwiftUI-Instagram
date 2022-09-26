@@ -34,6 +34,8 @@
 		AB80BB8428C944B50009B56D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB80BB8328C944B50009B56D /* Preview Assets.xcassets */; };
 		AB80BB9028C945E50009B56D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80BB8F28C945E50009B56D /* ContentView.swift */; };
 		AB9AC17428D594DC00EA1173 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC17328D594DC00EA1173 /* ProfileHeader.swift */; };
+		ABC1E5A228D9646800E11772 /* OwnStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1E5A128D9646800E11772 /* OwnStories.swift */; };
+		ABC1E5A428D975D200E11772 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1E5A328D975D200E11772 /* ProfileActionButtonView.swift */; };
 		ABCDF66828D18E830021006E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF66728D18E830021006E /* SearchBar.swift */; };
 		ABCDF66A28D193DE0021006E /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF66928D193DE0021006E /* PostGridView.swift */; };
 		ABCDF66C28D196E10021006E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF66B28D196E10021006E /* UserCell.swift */; };
@@ -69,6 +71,8 @@
 		AB80BB8328C944B50009B56D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB80BB8F28C945E50009B56D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB9AC17328D594DC00EA1173 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		ABC1E5A128D9646800E11772 /* OwnStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnStories.swift; sourceTree = "<group>"; };
+		ABC1E5A328D975D200E11772 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		ABCDF66728D18E830021006E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		ABCDF66928D193DE0021006E /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		ABCDF66B28D196E10021006E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -216,6 +220,7 @@
 				AB1CA9F228D02BB400D9DEDC /* ProfileView.swift */,
 				AB9AC17328D594DC00EA1173 /* ProfileHeader.swift */,
 				AB28C68F28D7B232004E14DC /* ProfileStatsView.swift */,
+				ABC1E5A328D975D200E11772 /* ProfileActionButtonView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				ABCDF66928D193DE0021006E /* PostGridView.swift */,
 				ABCDF66B28D196E10021006E /* UserCell.swift */,
 				ABCDF66D28D196E80021006E /* UserListView.swift */,
+				ABC1E5A128D9646800E11772 /* OwnStories.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1CA9E528D02AC900D9DEDC /* CustomSecureField.swift in Sources */,
+				ABC1E5A428D975D200E11772 /* ProfileActionButtonView.swift in Sources */,
 				AB1CA9F528D02BD200D9DEDC /* UploadPostView.swift in Sources */,
 				AB1CA9E728D02AC900D9DEDC /* Extensions.swift in Sources */,
 				AB80BB9028C945E50009B56D /* ContentView.swift in Sources */,
@@ -392,6 +399,7 @@
 				AB223CD628D825FD000AF813 /* StoryViewModel.swift in Sources */,
 				AB1CA9EB28D02AC900D9DEDC /* LazyView.swift in Sources */,
 				AB1CA9DD28D029DC00D9DEDC /* MainTabView.swift in Sources */,
+				ABC1E5A228D9646800E11772 /* OwnStories.swift in Sources */,
 				AB28C69228D7B5E2004E14DC /* StorysListView.swift in Sources */,
 				AB1CA9F728D0359400D9DEDC /* FeedCell.swift in Sources */,
 				AB223CDD28D839AA000AF813 /* FeedContent.swift in Sources */,

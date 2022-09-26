@@ -13,6 +13,7 @@ struct ProfileView: View {
 		ScrollView {
 			ProfileHeader()
 			LazyVStack {
+				OwnStories()
 				PostGridView()
 			}
 		}
