@@ -24,8 +24,6 @@ struct MainTabView: View {
 				UploadPostView()
 					.tabItem {
 						Image(systemName: "plus.viewfinder")
-						
-						
 					}
 				
 				NotificationsView()
@@ -38,11 +36,22 @@ struct MainTabView: View {
 						Image(systemName: "person.crop.circle")
 					}
 			}
-			.navigationBarTitleDisplayMode(.inline)
-			// HeaderFeed
+			
+			.toolbar {
+				ToolbarItemGroup(placement: .navigationBarLeading) {
+					InstagramLogo()
+					
+				}
+				ToolbarItemGroup(placement: .navigationBarTrailing){
+					HeaderButtons()
+				}
+			}
+			.accentColor(.black)
 		}
 	}
 }
+
+
 
 struct MainTabView_Previews: PreviewProvider {
 	static var previews: some View {

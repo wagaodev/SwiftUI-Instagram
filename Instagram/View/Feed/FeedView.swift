@@ -19,6 +19,8 @@ struct FeedView: View {
 		}
 		.padding(.top, -52)
 	}
+	
+	
 }
 
 struct FeedView_Previews: PreviewProvider {
